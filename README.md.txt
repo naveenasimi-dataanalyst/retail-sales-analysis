@@ -1,16 +1,32 @@
 # Retail Sales Performance Analysis
+
 ## Project Overview
-Analyzed 9,994 retail orders to identify revenue drivers, regional performance,
-and the impact of discounting on profitability.
+Analyzed 9,994 retail orders from a US superstore to identify 
+revenue drivers, regional performance gaps.
+
+## Business Questions Answered
+- Which product category generates the most revenue.
+- Which region performs best and worst?
+- What is the monthly revenue trend across 4 years?
+- 
+- Which sub-categories are being sold at a loss?
+
 ## Tools Used
-- Excel (data cleaning, charts)
-- MySQL (data storage and SQL analysis)
+- Excel — data cleaning, analysis, and chart visualization
+- MySQL Workbench — database creation, data import, SQL analysis
+
 ## Key Findings
-- Technology category generates the highest revenue ($X)
-- High discounts (>40%) lead to negative profit in 87% of cases
-- West region outperforms all other regions in total revenue
-- Q4 shows 35% higher revenue compared to Q1
-## Files in this Repository
-- `superstore_clean.csv` - cleaned dataset
-- `queries_project1.sql` - all SQL queries
-- `Project1_Analysis.xlsx` - Excel analysis with charts
+1. Technology is the highest revenue category at $836,154
+2. West region leads in revenue at $725,457
+3. Central region has the lowest profit despite decent revenue
+4. Orders with discounts above 40% consistently generate NEGATIVE profit
+5. Tables sub-category has high revenue but NEGATIVE profit margin (-8.5%)
+6. Revenue shows a clear upward trend from 2014 to 2017 with Q4 spikes
+
+## Files in This Repository
+- `superstore_clean.csv` - cleaned dataset (9,994 rows)
+- `queries_project1.sql` - all 6 SQL queries with comments
+- `Project1_Analysis.xlsx` - Excel workbook with 6 analysis sheets and charts
+
+## Dataset Source
+Kaggle - Sample Superstore Dataset
